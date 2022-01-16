@@ -1,0 +1,13 @@
+
+5.0 - 4.95 == 0.05
+False
+
+This is an example of the round off error that is present in python and other languages. 
+The floating point is not exactly represented in number, so when used in arithmetic the slight approximation causes the discrepancy. 
+The Round function can be used compare the values as the slight approximation is taken into account.
+
+round(0.1 + 0.5 + 0.6, 5)  == round(1.2, 5)
+True
+
+Computers use Binary, or Base2, to simplify the numbers. These bits are represented as 0 and 1, with each number represented as a power of 2. 
+For example, 43 in Base10 would be: 32+8+2+1 = 2^5 + 0^4 + 2^3 + 0^2 + 2^1 + 2^0 = 101011
